@@ -68,3 +68,15 @@
  color: var(--color-primary);
  /* margin-top: 1rem;  */
 }
+
+@media (max-width:600px) {
+    .signup .card{
+        width: 90%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    .signup .card.right{
+    padding-bottom:20px 0;
+    }
+}
